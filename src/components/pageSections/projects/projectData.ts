@@ -81,7 +81,7 @@ export const ProjectsData: Project[] = [
 	{
 		title: 'My Second  Website',
 		code: 'https://github.com/seannkelleyy/Portfolio-v2',
-		link: 'https://www.v2.seannkelleyy.com',
+		link: 'https://portfolio-v2-dr7u.onrender.com/',
 		image: '/projects/portfolioV2.jpeg',
 		technologies: [
 			{
@@ -98,7 +98,7 @@ export const ProjectsData: Project[] = [
 	{
 		title: 'My first website',
 		code: 'https://github.com/seannkelleyy/Portfolio-v1',
-		link: 'https://www.v1.seannkelleyy.com',
+		link: 'https://portfolio-v1-ogoj.onrender.com/',
 		image: '/projects/portfolioV1.png',
 		technologies: [
 			{

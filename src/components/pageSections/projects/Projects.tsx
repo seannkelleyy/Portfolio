@@ -74,7 +74,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 				{showDescription ? (
 					<div className='flex items-start h-full overflow-y-auto p-2'>{project.description}</div>
 				) : (
-					<a href={project.link}>
+					<a
+						href={project.link}
+						target='_blank'
+						rel='noopener noreferrer'
+					>
 						<div className='w-full h-full flex items-center justify-center'>
 							<img
 								src={project.image}
